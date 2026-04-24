@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Laptop Service</h1>
+        <label for="name">UserName:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" name="contact" required><br><br>
+        <label for="issue">Issue Description:</label><br><br>
+        <select id="issue" name="issue" required>
+            <option value="">Select an issue</option>
+            <option value="screen">Screen Problem</option>
+            <option value="battery">Battery Issue</option>
+            <option value="keyboard">Keyboard Malfunction</option>
+            <option value="software">Software Glitch</option>
+            <option value="other">Other</option>
+        </select><br><br>
+        <label for="description">Additional Details:</label><br><br>
+        <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+        <label for="priority">Priority:</label>
+        <input type="radio" id="high" name="priority" value="high" required>
+        <label for="high">High</label>
+        <input type="radio" id="medium" name="priority" value="medium">
+        <label for="medium">Medium</label>
+        <input type="radio" id="low" name="priority" value="low">
+        <label for="low">Low</label>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
